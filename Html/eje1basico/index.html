@@ -1,26 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>PRIMER Html</title>
+		<meta charset="utf-8">
+		<title>Practica 1</title>
 	</head>
 	<body>
-		<h1> Html</H1>
-		<ul>
+		<p id="principio"><h1> Primer parrafo corto</h1></p>
+		<p><h2>Segundo parrafo corto</h2></p>
+		<section>
+			<h2>Grupo de navegacion</h2>
+<ul>
+	<li>
+	<a href="https://www.google.com" target="_blank">Google </a>
+	</li>
+	<li>
+	<a href="https://espanol.yahoo.com/" target="_blank">Yahoo</a>
+	</li>
+	<li>
+	<a href="https://www.bing.com/" target="_blank">bing</a>
+	</li>
+	</section>
+	<hr/>
+	<nav>
+		<a href="https://www.ecured.cu/Carnaval_de_Oruro">Historia del Carnaval de Oruro</a>&nbsp;&nbsp;&nbsp;
+		<a href="https://www.bolivia.com/turismo/carnaval-de-oruro/origenes/" target="_blank">Origenes del Carnaval de Oruro</a>&nbsp;&nbsp;&nbsp;
+		<a href="#video">Spot Carnaval de Oruro</a>
+	</nav>
+	<hr/>
+	<main id="cuerpo">
+		  <h1>Cuerpo principal de la pagina</h1>
+		  <p>El Carnaval de Oruro es conocido a nivel mundial y ha sido declarado Obra Maestra del Patrimonio Oral e Intangible de la Humanidad por la Unesco el 18 de mayo de 2001, hace 16 años. En 2008, por la misma Unesco fue inscrita en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad.
+
+
+
+		  </p>
+		  <section>
+		  <h2>seccion importante de semantica:</h2>
+		  <ul>
 			<li>
-			<a >practica 1</a>	
+			<a>HEADER</a>
 			</li>
 			<li>
-				<a >practica 2</a>	
+				<a>FOODER</a>
 			</li>
 			<li>
-				<a >practica 3</a>	
+				<a>SECTION</a>
 			</li>
 			<li>
-				<a >practica 4</a>	
+				<a>ARTICLE</a>
 			</li>
 			<li>
-				<a >practica 5</a>	
+				<a>NAV</a>
 			</li>
-		</ul>
+			<li>
+				<a>ADDRESS</a>
+			</li>
+		  </ul>
+		  <h2>Reglas para etiquetas semantica:</h2>
+		  <ul>
+			<li>
+			<a>Los distintos tipose de contenido se pueden asociar a la etiqueta SECTION</a>
+			</li>
+			<li>
+				<a>Las unidades de contenido se asocian a la etiqueta de ARTICLE o sea que un SECTION agrupa varios ARTICLE</a>
+			</li>
+			<li>
+				<a>Las etiquetas HEADER Y FOODER se puden anidar en otros HEADER O FOOTER o sea que un FOOTER puede anidar otro HEADER y otro FOOTER</a>
+			</li>
+			<li>
+				<a>La etiqueta NAV debe seer unica en el documento y corresponde a los elementos de navegacion del documento</a>
+			</li>
+			<li>
+				<a>Reservar etiquetas H1 para usar dentro de etiquetas top level como main header y footer</a>
+			</li>
+		
+		  </ul>
+		</section>
+		  <section id="imagenes">
+			  <h2>Seccion de Imagenes</h2>
+			  <p>En esta seccion insertaremos imagenes identificativas de nuestro sitio </p>
+			  <p>imagen insertada en tamaño natural</p>
+			  <img alt="diablo1" src="./diablo1.jpg"></img>
+			  <p>la misma imagen con difernetes atributos width</p>
+			  <p>las imagenes mostradas a continuacion tienen distorcion segun el valor del atributo atributos width</p>
+			  <img alt="diablo1" style="width: 100px;height: 500px;" src="./diablo1.jpg" ></img>
+			  <img alt="diablo1"  style="width: 200px;height: 500px;"src="./diablo1.jpg"></img>
+			  <img alt="diablo1" style="width: 250px;height: 500px;"src="./diablo1.jpg" ></img>
+			  <img alt="diablo1" style="width: 350px;height: 500px;"src="./diablo1.jpg" ></img>
+			  <img alt="diablo1" style="width: 400px;height: 500px;"src="./diablo1.jpg" ></img>
+			  
+			</section>
+			<hr>
+		  <section>
+			<h2>Seccion Video</h2>
+             <video id="video" controls autoplay muted="muted">
+				 <source src="./spot.mp4" type="video/mp4" >
+			 </video>
+		  </section>
+		   <p><h3>Sector anclajes</h3></p>
+		   <a href="#principio">Ir al principio</a><br>
+		   <a href="#cuerpo">Ir al cuerpo</a><br>
+		   <a href="#imagenes">Ir a las imagenes</a>
+		   <footer>
+            <p><h2>Datos del alumno</h2></p>
+			<p>Abner Villanueva Andia</p>
+			<p>Legajo: 15-25198</p>
+			<a href="mailto:abnervillanueva@hotmail.com">abnervillanueva@hotmail.com</a>
+		   </footer>
+
+
+	</main>
+	
+
+</ul>
+
+
+		
+	
 	</body>
 </html>
