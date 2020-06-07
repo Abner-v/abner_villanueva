@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<meta charset="utf-8">
+	<head>
+		<title>ejercicios java script</title>
+	</head>
+	<body>
+		<h2>Introducir un valor en el cuadro de texto y luego apretar el boton para el procedimiento correspondiente</h2>
+		<input type="text" id="x">
+		<button id="muestra valor">Muestra valor</button>
+		<button id="suma">Suma 1</button>
+		<button id="eleva">Eleva el valor al cuadrado</button>
+		<button id="multiplica">Multiplica valor por 2</button>
+		<script>
+					
+			document.getElementById("muestra valor").onclick=function()
+			{
+				alert(document.getElementById("x").value);
+			}
+			document.getElementById("suma").onclick=function()
+			{
+				var sum=parseInt(document.getElementById("x").value)
+				alert(sum+1);
+			}
+			document.getElementById("eleva").onclick=function()
+			{
+				var sum=parseInt(document.getElementById("x").value)
+				alert(sum*sum);
+			}
+			document.getElementById("multiplica").onclick=function()
+			{
+				var sum=parseInt(document.getElementById("x").value)
+				alert(sum*2);
+			}		
+
+		</script>
+		
+	</body>
+</html>

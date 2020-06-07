@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+	<meta charset="utf-8">
+	<head>
+		<title>ejercicios javascript</title>
+	</head>
+	<body>
+		<h1>ejercicios javascript</H1>
+			<button onclick="incorrecto();">asignacion de variable incorrecta</button>
+				<button onclick="correcto();">asignacion de variable correcta</button>
+					<button onclick="mostrar();">mostrar variable global</button>
+			<script>
+				var variable
+				function incorrecto()
+				{var variable=prompt("ingrese un numero para la variable");
+				alert("el valor ingresado es "+ variable);
+				alert("el tipo de la variable es "+ typeof variable);
+				};
+				function correcto()
+				{
+					variable=prompt("ingrese un numero para la variable");
+				alert("el valor ingresado es "+ variable);
+				alert("el tipo de la variable es "+ typeof variable);
+				};
+				function mostrar()
+				{
+					if(variable==undefined)
+					alert("la variable no a sido asignada");
+					else
+					 {alert("el valor ingresado es "+ variable);
+					 //variable=undefined;
+				}
+				    
+				}
+				
+
+			</script>
+
+		
+
+		
+	</body>
+</html>
