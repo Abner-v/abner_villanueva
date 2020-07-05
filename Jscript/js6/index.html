@@ -19,18 +19,17 @@
 			}
 			document.getElementById("suma").onclick=function()
 			{
-				var sum=parseInt(document.getElementById("x").value)
-				alert(sum+1);
+				document.getElementById("x").value=parseInt(document.getElementById("x").value)+1;
+				
 			}
 			document.getElementById("eleva").onclick=function()
 			{
-				var sum=parseInt(document.getElementById("x").value)
-				alert(sum*sum);
+				document.getElementById("x").value=parseInt(document.getElementById("x").value)*parseInt(document.getElementById("x").value);
 			}
 			document.getElementById("multiplica").onclick=function()
 			{
-				var sum=parseInt(document.getElementById("x").value)
-				alert(sum*2);
+				document.getElementById("x").value=parseInt(document.getElementById("x").value)*2;
+			
 			}		
 
 		</script>

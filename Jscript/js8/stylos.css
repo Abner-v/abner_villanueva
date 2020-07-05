@@ -1,0 +1,16 @@
+h1{
+color: darkblue;
+}
+.uno{
+    text-align: left;
+    background-color:chartreuse;
+    width: auto;
+    padding-left: 50px;
+}
+
+button{
+border: currentColor;
+cursor: pointer;
+line-break: normal;
+border-style: double;
+}

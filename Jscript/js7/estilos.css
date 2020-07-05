@@ -1,0 +1,57 @@
+.uno{
+background-color: aqua;
+width: 700px;
+height: 400px;
+margin: auto;
+padding-top: 2%;
+}
+
+.dos{
+    background-color: blue;
+    width:80%;
+    height: 60%;
+    margin:auto;   
+}
+.intro{
+    font-size: 20px;
+     width: 100%;
+    text-align: right;    
+}
+.tres{
+    background-color: rgb(237, 228, 100);
+    width:80%;
+    height: 35%;
+    margin: auto;
+}
+.bo1{
+    text-decoration: none;
+     padding: 3px;
+    margin-top: 4%;
+    font-weight: 500;
+    width: 10%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(161, 188, 143);
+    border-radius: 5px;
+    border: 1px solid ;
+    width: 40%;
+    height:20%;
+}
+
+
+.bo{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 4%;
+    width: 25%;
+    height: 15%;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: 1px solid ;
+
+}
+.boton{
+    text-align: center;
+}
